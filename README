@@ -1,0 +1,6 @@
+Git Tutorial
+1.Repositories
+2.Enable version control in android studio or git init in terminal
+3.apikey.txt , .gitignore file , Here this apikey.txt is ignored as it is added in .gitignore
+4. Right click on File -> git -> add or git add . in terminal
+5.

@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         println("Stash faile ")
 
-        println("Comnmit in Develoopment branch")
+        println("Change 2 in Testing branch for checking merge conflict")
     }
 }

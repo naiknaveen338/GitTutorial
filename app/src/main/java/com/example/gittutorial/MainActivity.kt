@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         println("Stash faile ")
 
-        println("Comnmit in Develoopment branch")
+        println("Change 1 in master for scenario of merge conflict")
     }
 }

@@ -3,4 +3,42 @@ Git Tutorial
 2.Enable version control in android studio or git init in terminal
 3.apikey.txt , .gitignore file , Here this apikey.txt is ignored as it is added in .gitignore
 4. Right click on File -> git -> add or git add . in terminal
-5.
+5. Commit
+    Terminal - git commit -m "message"
+    AS - Pass symbol at the top
+6. git log . or In git tab in AS
+7. If we commited any wrong , to revert
+    Terminal - git revert commit
+    AS - Right click on commit in Log section , Revert commit
+
+8. git checkout commtitId or In AS, Right click on Commit in Log, Checkout --> master
+9. Scenario where we have local changes which is not commited , but we need to checkout to different commit
+    In AS -->1.  It gives option for SMart checkout and Force checkout
+            SmartCHeckout --- It stashes local changes and commits
+            FOrceCheckout --- It removes local changes and commits
+
+    2.  Git option --> vcs operation --- stash changes
+
+    Unstash In AS : git---vcs operation ---unstash changes
+
+    Stash --> Save the local chages without committing ,move to different connit , later we can unstash it to get the local changes
+
+    In Terminal --- 1.git stash 2.git checkout commitid
+    unstash in Terminal -- git stash list , git stash apply
+
+10. Default branch name for git is master branch
+    1. Show all branch git branch -a
+    2. Create a branch , git branch "development"
+    3. Switch branch , git checkout development
+    4. To switch branch in AS, Bottom right corner , we can see branch , select branch and checkout
+
+11. To merge changes om one branch to another brnach, In our case , merge changes from development/testing branch to master
+    1. In AS, Be on a branch wer we want to merge chages to , In our case be in master branch
+    2. Git -->merge --->select from which branch we need to take changes --> done
+    3. In Terminal, git merge development
+
+12. First login to Github in Android studio settings , Git --> github ---> share project on github
+
+
+
+
